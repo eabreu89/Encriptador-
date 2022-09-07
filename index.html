@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>CHALLEGE 1</title>
+        
+        
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="logo">
+                <img class="logoimg" src="Logo.png">
+                <h1 class="logo-tittle">Encriptador de Mensaje</h1>
+            </div>
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="INGRESE EL TEXTO AQUI">
+            </div>
+            <div class="right">
+                <img src="Muñeco.png"  id="imgDer">
+                <h1 id="texto"> Ningun mensaje fue encontrado</h1>
+                <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desee encriptar o desencriptar</textarea>
+                <button id="copiar" type="button" name="=button" onclick="copiar()">¡Copiar!</button>
+             </div>
+             <div class="left-button">
+               <p>Solo letras minuscula y sin acento</p>
+               <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button> 
+               <button type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
+             </div>
+
+        <footer>
+            <h3>Creado por: Edwin Abreu</h3>
+        </footer>  
+    </body>
+</html>
